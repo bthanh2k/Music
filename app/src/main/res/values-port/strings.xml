@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="actioncount">action_count</string>
+    <string name="sendtoactivity">send_to_activity</string>
+    <string name="notallowreadstorage">Không cho phép đọc bộ nhớ</string>
+    <string name="actionmusicreceiver">action_music_receiver</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mNotificationBigStyle"
+    android:layout_width="match_parent"
+    android:layout_height="128dp">
+
+    <ImageView
+        android:id="@+id/mNotificationLogo"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/ic_musicnode"></ImageView>
+
+    <TextView
+        android:id="@+id/NameOfSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@id/mNotificationLogo"
+        android:text="Tên bài hát"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/NameOfAlbumn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NameOfSong"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@id/mNotificationLogo"
+        android:text="Tên Albumn" />
+
+    <TextView
+        android:id="@+id/NameOfApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NameOfAlbumn"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@id/mNotificationLogo"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/NameOfApp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_toEndOf="@id/mNotificationLogo"
+        android:background="#707070" />
+
+    <LinearLayout
+        android:id="@+id/BigNotificationControls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageButton
+            android:id="@+id/mNotificationPreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/ic_previous"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/mNotificationPauseButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_play_notification"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/mNotificationNextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/ic_next"></ImageButton>
+    </LinearLayout>
+</RelativeLayout>

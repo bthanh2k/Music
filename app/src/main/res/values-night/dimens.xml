@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="panel_height">64dp</dimen>
+    <dimen name="ImagePlayLogo_margin">7dp</dimen>
+    <dimen name="mPlayMusicName_margin">7dp</dimen>
+    <dimen name="mPlayMusicName_textsize">20sp</dimen>
+    <dimen name="mBtnStatus_margin_right">16dp</dimen>
+</resources>

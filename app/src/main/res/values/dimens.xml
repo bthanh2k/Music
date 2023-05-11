@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="panel_height">64dp</dimen>
+    <dimen name="ImagePlayLogo_margin">7dp</dimen>
+    <dimen name="mPlayMusicName_margin">7dp</dimen>
+    <dimen name="mPlayMusicName_textsize">17sp</dimen>
+    <dimen name="mBtnStatus_margin_right">16dp</dimen>
+    <dimen name="panel_ShadowHeight">4dp</dimen>
+    <dimen name="dimen64dp">64dp</dimen>
+    <dimen name="dimen40dp">40dp</dimen>
+    <dimen name="dimenNameOfMusic">261dp</dimen>
+    <dimen name="dimen16dp">16sp</dimen>
+    <dimen name="dimenNameOfAlbumn">261dp</dimen>
+    <dimen name="dimen12dp">12dp</dimen>
+    <dimen name="dimen25dp">25dp</dimen>
+    <dimen name="dimen7dp">7dp</dimen>
+    <dimen name="dimen16sp">16sp</dimen>
+    <dimen name="dimen13sp">13sp</dimen>
+    <dimen name="dimen48dp">48dp</dimen>
+    <dimen name="dimen10dp">10dp</dimen>
+    <dimen name="dimenNameSongPlay">226dp</dimen>
+    <dimen name="dimenNameAlbumnPlay">226dp</dimen>
+    <dimen name="dimen15sp">15sp</dimen>
+    <dimen name="dimen37dp">37dp</dimen>
+    <dimen name="dimen155dp">155dp</dimen>
+    <dimen name="dimen117dp">117dp</dimen>
+    <dimen name="dimen84dp">84dp</dimen>
+    <dimen name="dimen8dp">8dp</dimen>
+    <dimen name="dimen24dp">24dp</dimen>
+    <dimen name="dimen26dp">26dp</dimen>
+    <dimen name="dimen43dp">43dp</dimen>
+    <dimen name="dimen111dp">111dp</dimen>
+    <dimen name="dimen60dp">60dp</dimen>
+</resources>

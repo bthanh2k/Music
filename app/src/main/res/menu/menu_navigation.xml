@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/item_allSongs"
+            android:icon="@drawable/ic_item_music_node"
+        android:title="@string/item_allsongs"/>
+        <item android:id="@+id/item_favouriteSongs"
+            android:icon="@drawable/ic_item_favorite_music"
+            android:title="@string/item_favouritesongs"/>
+        <item android:id="@+id/item_musicLibrary"
+            android:icon="@drawable/ic_item_music_library"
+            android:title="@string/item_music_library"/>
+    </group>
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/item_settings"
+                android:title="@string/item_settings"/>
+            <item android:id="@+id/item_feedback"
+                android:title="@string/item_feedback"/>
+        </menu>
+    </item>
+</menu>

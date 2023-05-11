@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_fragment_all_songs_favourite"
+    tools:context=".AllSongsFragment"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mRecyclerViewFavourite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/mSlideUpLayoutFavourite"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen64dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/border_panel_allsongsfragment"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/mMusicLogoMiniFavourite"
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/dimen40dp"
+            android:layout_height="@dimen/dimen40dp"
+            android:layout_margin="@dimen/dimen12dp"
+            android:src="@drawable/ic_musicnode" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/mMusicNamePlayFavourite"
+                android:layout_width="@dimen/dimenNameOfMusic"
+                android:layout_height="@dimen/dimen25dp"
+                android:layout_marginTop="@dimen/dimen7dp"
+                android:gravity="left|top"
+                android:text="@string/unknow_song"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen16sp"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/mAlbumNamePlayFavourite"
+                android:layout_width="@dimen/dimenNameOfAlbumn"
+                android:layout_height="@dimen/dimen25dp"
+                android:layout_below="@id/mMusicNamePlayFavourite"
+                android:layout_alignStart="@id/mMusicNamePlayFavourite"
+                android:layout_marginBottom="@dimen/dimen7dp"
+                android:gravity="left"
+                android:text="@string/unknow_albumn"
+                android:textSize="@dimen/dimen13sp" />
+
+            <ImageButton
+                android:id="@+id/mBtnStatusFavourite"
+                android:layout_width="@dimen/dimen25dp"
+                android:layout_height="@dimen/dimen48dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dimen10dp"
+                android:layout_toEndOf="@id/mAlbumNamePlayFavourite"
+                android:background="@null"
+                android:src="@drawable/ic_pause"
+                 />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

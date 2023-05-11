@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/mNotificationBigStyle"
+    android:layout_height="64dp">
+
+    <ImageView
+        android:id="@+id/mNotificationLogo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_musicnode"></ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/mNotificationPreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/ic_previous"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/mNotificationPauseButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_play_notification"></ImageButton>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:id="@+id/mNotificationNextButton"
+            android:src="@drawable/ic_next"
+        ></ImageButton>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Melody Mosaic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="unknow_song">Unknow Song</string>
+    <string name="unknow_albumn">Unknow Albumn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="item_like">Yêu Thích</string>
+    <string name="item_remove">Bỏ Thích</string>
+    <string name="item_allsongs">All songs</string>
+    <string name="item_favouritesongs">Favourite songs</string>
+    <string name="item_music_library">Music library</string>
+    <string name="item_settings">Settings</string>
+    <string name="item_feedback"><![CDATA[Help & feedback]]></string>
+    <string name="time_0_00">0:00</string>
+    <string name="time_5_35">5:35</string>
+    <string name="ACTION_RESET_SEEKBAR">action_reset_seekbar</string>
+    <string name="ACTION_SETUP_SEEKBAR">action_setup_seekbar</string>
+    <string name="ACTION_SETUP_STATE">action_setup_state</string>
+    <string name="ACTION_GET_SHUFFLE">action_get_shuffle</string>
+    <string name="ACTION_SET_FAVOURITE">action_set_favourite</string>
+    <string name="ACTION_COUNT_PLAY">action_count_play</string>
+    <string name="actioncount">action_count</string>
+    <string name="isplaysong">isplay_song</string>
+    <string name="actionmediaplayback">action_mediaplayback</string>
+    <string name="state">state</string>
+    <string name="ispase">is_pause</string>
+    <string name="position">position</string>
+    <string name="sendtoactivity">send_to_activity</string>
+    <string name="sendcount">send_count</string>
+    <string name="positionlast">position_last</string>
+    <string name="allowreadstorage">Cho phép đọc bộ nhớ</string>
+    <string name="notallowreadstorage">Không cho phép đọc bộ nhớ</string>
+    <string name="playmusic">PLAY MUSIC</string>
+    <string name="notifiplaymusic">NOTIFY PLAYMUSC</string>
+    <string name="actionmusicreceiver">action_music_receiver</string>
+    <string name="ispause">is_pause</string>
+</resources>
